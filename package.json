@@ -1,0 +1,26 @@
+{
+  "name": "mayesite",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowWinterMaye/snowwintermaye.github.io.git"
+  },
+  "author": "Maye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnowWinterMaye/snowwintermaye.github.io/issues"
+  },
+  "homepage": "https://github.com/SnowWinterMaye/snowwintermaye.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
